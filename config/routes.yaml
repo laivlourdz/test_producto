@@ -1,0 +1,32 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+product:
+    path: /product
+    controller: App\Controller\ProductController::index
+    methods: [GET]
+
+create:
+    path: /create
+    controller: App\Controller\ProductController::create
+    methods: [POST]
+
+list:
+    path: /product/list
+    controller: App\Controller\ProductController::list
+    methods: [GET]
+
+show:
+    path: /product/show
+    controller: App\Controller\ProductController::show
+    methods: [GET]
+
+update:
+    path: /product/update
+    controller: App\Controller\ProductController::update
+    methods: [POST]
+delete:
+    path: /product/delete
+    controller: App\Controller\ProductController::delete
+    methods: [POST]
