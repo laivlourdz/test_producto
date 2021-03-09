@@ -1,0 +1,157 @@
+{
+	"info": {
+		"_postman_id": "1991b97b-9a01-4bc3-90d9-833a62a81349",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "json",
+							"value": "{\"name\":\"producto new 10 6\",\"description\":\"es producto 3\",\"price\":\"140\"}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1/crud_test/product/public/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"crud_test",
+						"product",
+						"public",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1/crud_test/product/public/product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/crud_test/product/public/product",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"crud_test",
+						"product",
+						"public",
+						"product"
+					]
+				},
+				"description": "json productos"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1/crud_test/product/public/product/show",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/crud_test/product/public/product/show",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"crud_test",
+						"product",
+						"public",
+						"product",
+						"show"
+					]
+				},
+				"description": "mostrar"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1/crud_test/product/public/create ",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "json",
+							"value": "{\"name\":\"producto new 10 6\",\"description\":\"es producto 3\",\"price\":\"140\"}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1/crud_test/product/public/create ",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"crud_test",
+						"product",
+						"public",
+						"create "
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1/crud_test/product/public/product/update",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "http://127.0.0.1/crud_test/product/public/product/update",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"crud_test",
+						"product",
+						"public",
+						"product",
+						"update"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
